@@ -24,8 +24,6 @@ const userPortfolio = () => {
               <li>HTML/CSS</li>
               <li>Troubleshooting</li>
               <li>Repair and Maintenance</li>
-
-
             </ul>
         </p>
       </div>
