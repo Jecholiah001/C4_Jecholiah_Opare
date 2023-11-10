@@ -1,39 +1,36 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './App.css'
 
-function App() {
- // const [count, setCount] = useState(0)
-
+const userPortfolio = () => {
   return (
-//     <>
-//       <div>
-//         <a href="https://vitejs.dev" target="_blank">
-//           <img src={viteLogo} className="logo" alt="Vite logo" />
-//         </a>
-//         <a href="https://react.dev" target="_blank">
-//           <img src={reactLogo} className="logo react" alt="React logo" />
-//         </a>
-//       </div>
-//       <h1>Vite + React</h1>
-//       <div className="card">
-//         <button onClick={() => setCount((count) => count + 1)}>
-//           count is {count}
-//         </button>
-//         <p>
-//           Edit <code>src/App.jsx</code> and save to test HMR
-//         </p>
-//       </div>
-//       <p className="read-the-docs">
-//         Click on the Vite and React logos to learn more
-//       </p>
-//     </>
+    <>
       <div>
-        <h1>Hello World</h1>
-        <p>I am Jecholiah Afua Antwiwaa Opare, this is my first React application.</p>
+        <h1>USER PORTFOLIO</h1>
+        <p>
+          <h2>Full Name:</h2>
+          Jecholiah Afua Antwiwaa Opare
+          <h2> Educational Background:</h2>
+          Bachelor Of Science in Biomedical Engineering- University Of Ghana, 2022
+          <h2> Professional Background:</h2>
+            <ul>
+              <li>Biomedical Engineering Intern at UGMC</li>
+              <li>Front-End Developer Trainee at Azubi Africa</li>
+            </ul>
+          <h2>Skills:</h2>
+            <ul>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>HTML/CSS</li>
+              <li>Troubleshooting</li>
+              <li>Repair and Maintenance</li>
+
+
+            </ul>
+        </p>
       </div>
+    </>
   )
 }
 
-export default App
+export default userPortfolio
