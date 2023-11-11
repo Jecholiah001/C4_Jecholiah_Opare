@@ -1,0 +1,10 @@
+/* Styling  Button components */
+.custom-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

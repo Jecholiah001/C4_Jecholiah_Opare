@@ -1,7 +1,7 @@
-
 import './App.css'
+import Button from './components/Button';
 
-const userPortfolio = () => {
+const myApp = () => {
   return (
     <>
       <div>
@@ -27,8 +27,13 @@ const userPortfolio = () => {
             </ul>
         </p>
       </div>
+
+      <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <Button label="Login"/>
+      <Button label="Sign In"/>
+    </div>
     </>
   )
 }
 
-export default userPortfolio
+export default myApp;
